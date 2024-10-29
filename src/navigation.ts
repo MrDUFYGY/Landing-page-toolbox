@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Proyectos',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Servicios',
       links: [
         {
           text: 'Lead Generation',
@@ -89,11 +89,11 @@ export const headerData = {
       text: 'Blog',
       links: [
         {
-          text: 'Blog List',
+          text: 'Entradas',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Otro',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
@@ -112,6 +112,10 @@ export const headerData = {
     },
     {
       text: 'Widgets',
+      href: '#',
+    },
+    {
+      text: 'Prueba',
       href: '#',
     },
   ],

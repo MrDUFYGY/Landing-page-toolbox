@@ -1,22 +1,22 @@
 site:
   name: AstroWind
-  site: 'https://www.toolbox.dev'
+  site: 'https://www.landing.dev'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: false
+  googleSiteVerificationId: false #Se obtiene de google 
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Landing - Insano Network
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 esta es un sitio que usa Astro para mostrar una galeria de herramientos de desarrollo web."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: InsanoNetwork
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es
   textDirection: ltr
 
 apps:
