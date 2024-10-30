@@ -1,6 +1,6 @@
 site:
   name: AstroWind
-  site: 'https://www.landing.dev'
+  site: 'https://www.hidrosina.com.mx/'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Landing - Insano Network
+    default: Landing - Hidrosina
     template: '%s — AstroWind'
   description: "\U0001F680 esta es un sitio que usa Astro para mostrar una galeria de herramientos de desarrollo web."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: InsanoNetwork
+    site_name: Hidrosina
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@Grupo_Hidrosina'
+    site: '@Grupo_Hidrosina'
     cardType: summary_large_image
 
 i18n:

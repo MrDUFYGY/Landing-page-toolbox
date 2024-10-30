@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--aw-color-primary)',
+        primary: '#018E2E',
         secondary: 'var(--aw-color-secondary)',
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
